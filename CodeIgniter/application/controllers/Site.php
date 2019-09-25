@@ -21,4 +21,21 @@ class Site extends CI_Controller
         $this->load->helper('url');
         echo site_url('site/index');
     }
+
+    public function test(){
+        $data = [
+            [
+                'name' => '张三',
+                'age' => 20
+            ],
+            [
+                'name' => 'mason',
+                'age' => 20
+            ]
+        ];
+
+        $this->load->view('test', ['lists'=>$data]);
+    }
+
+
 }
