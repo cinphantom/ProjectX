@@ -1,0 +1,57 @@
+var inst = new mdui.Collapse('#collapse');
+
+// open
+document.getElementById('open-1').addEventListener('click', function () {
+  inst.open(0);
+});
+document.getElementById('open-2').addEventListener('click', function () {
+  inst.open('#item-2');
+});
+document.getElementById('open-3').addEventListener('click', function () {
+  inst.open(document.getElementById('item-3'));
+});
+
+// close
+document.getElementById('close-1').addEventListener('click', function () {
+  inst.close('#item-1');
+});
+document.getElementById('close-2').addEventListener('click', function () {
+  inst.close(document.getElementById('item-2'));
+});
+document.getElementById('close-3').addEventListener('click', function () {
+  inst.close(2);
+});
+
+// toggle
+document.getElementById('toggle-1').addEventListener('click', function () {
+  inst.toggle('#item-1');
+});
+document.getElementById('toggle-2').addEventListener('click', function () {
+  inst.toggle('#item-2');
+});
+document.getElementById('toggle-3').addEventListener('click', function () {
+  inst.toggle('#item-3');
+});
+
+// all
+document.getElementById('open-all').addEventListener('click', function () {
+  inst.openAll();
+});
+document.getElementById('close-all').addEventListener('click', function () {
+  inst.closeAll();
+});
+
+// event
+var item1 = document.getElementById('item-1');
+item1.addEventListener('open.mdui.collapse', function () {
+  console.log('item 1 open');
+});
+item1.addEventListener('opened.mdui.collapse', function () {
+  console.log('item 1 opened');
+});
+item1.addEventListener('close.mdui.collapse', function () {
+  console.log('item 1 close');
+});
+item1.addEventListener('closed.mdui.collapse', function () {
+  console.log('item 1 closed');
+});
