@@ -74,6 +74,13 @@ a:hover {
 a:active {
   color: #33be85;
 }
+.login-contain .form-content .error-message {
+  color: #00ff00;
+  font-size: 12px;
+}
+
+
+
 /*===================公共图标库===================*/
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
