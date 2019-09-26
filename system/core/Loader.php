@@ -508,7 +508,6 @@ class CI_Loader {
 	{
 		return $this->_ci_load(array('_ci_path' => $path, '_ci_return' => $return));
 	}
-
 	// --------------------------------------------------------------------
 
 	/**

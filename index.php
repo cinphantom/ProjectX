@@ -97,7 +97,7 @@ switch (ENVIRONMENT)
  * This variable must contain the name of your "system" directory.
  * Set the path if it is not in the same directory as this file.
  */
-	$system_path = 'D:/phpStudy/PHPTutorial/WWW/ProjectX/CodeIgniter/system';
+	$system_path = 'D:/phpStudy/PHPTutorial/WWW/ProjectX/system';
 
 /*
  *---------------------------------------------------------------
@@ -114,7 +114,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$application_folder = 'D:/phpStudy/PHPTutorial/WWW/ProjectX/CodeIgniter/application';
+	$application_folder = 'D:/phpStudy/PHPTutorial/WWW/ProjectX/application';
 
 /*
  *---------------------------------------------------------------

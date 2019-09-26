@@ -1,8 +1,10 @@
+<?php
+?>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8"/>
-<title>登录-后台管理系统</title>
+<title>登录管理系统</title>
 <meta name="keywords"  content="admin" />
 <meta name="description" content="admin system" />
 <meta name="author" content="jin" />
@@ -13,17 +15,17 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="format-detection" content="telephone=no">
 <meta name="format-detection" content="address=no">
-<link rel="icon" href="images/icon/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<script src="javascript/jquery.js"></script>
-<script src="javascript/public.js"></script>
-<script src="javascript/plug-ins/customScrollbar.min.js"></script>
-<script src="javascript/pages/login.js"></script>
+<link rel="icon" href="<?=base_url().'resource/images/icon/favicon.ico'?>" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="<?=base_url().'resource/css/style.css'?>" />
+<script src="<?=base_url().'resource/javascript/jquery.js' ?>"></script>
+<script src="<?=base_url().'resource/javascript/public.js'?>"></script>
+<script src="<?=base_url().'resource/javascript/plug-ins/customScrollbar.min.js'?>"></script>
+<script src="<?=base_url().'resource/javascript/pages/login.js'?>"></script>
 </head>
 <body class="login-page">
 	<section class="login-contain">
 		<header>
-			<h1>后台管理系统</h1>
+			<h1>管理系统</h1>
 			<p>management system</p>
 		</header>
 		<div class="form-content">
