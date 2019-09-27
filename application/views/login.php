@@ -21,8 +21,8 @@
 <script src="<?=base_url().'resource/javascript/public.js'?>"></script>
 <script src="<?=base_url().'resource/javascript/plug-ins/customScrollbar.min.js'?>"></script>
 </head>
-<?php echo $html?>
 <body class="login-page">
+<?php var_dump($html);?>
 	<section class="login-contain">
 		<header>
 			<h1>试制信息化管理系统</h1>
@@ -67,7 +67,6 @@
             </form>
 		</div>
 	</section>
-
     <div class="mask"></div>
     <div class="dialog">
         <div class="dialog-hd">
@@ -84,7 +83,5 @@
             <button class="btn btn-secondary JnoBtn">关闭</button>
         </div>
     </div>
-
-
 </body>
 </html>
