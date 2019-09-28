@@ -2,12 +2,15 @@
 class Login extends CI_Controller
 {
     public function index(){
+
         $data=array();
-        $data['message']['get']=$this->input->get();
+
         if($this->input->method()=='post'){
-            $data['message']['post'] = $this->input->post();
-            //validate the login post form
             $this->load->library('form_validation');
+            $data['message']['postname'] = $this->input->post('username');
+            $data['message']['postpassword'] = $this->input->post('password');
+            //validate the login post form
+
             //define the rules
             $this->form_validation->set_rules([
                 [
@@ -21,24 +24,22 @@ class Login extends CI_Controller
                     'label' => '密码',
                     'rules' => 'required',
                     'errors' => ['required' => '%s必须填写',]
-                ],
+                ]
             ]);
-            //validate
-//            if(!$this->form_validation->run()){
-//                $data['message'][0]='form_validation';
-//                //validated
-//                $user = $this->db->get_where('admin',['username'=>$this->input->post('username')])->row_array();
-//                if(!$user){
-//                    exit('wrong user');
-//                }
-//                if($user['password']!=$this->input->post('password')){
-//                    exit('wrong password');
-//                }
-////                //access granted
-//                $this->session->set_userdata('user',$user);
-//                redirect(site_url(['site/index']));
-//            }
-            $data['message'][1]='form_validation_not_run';
+
+            if($this->form_validation->run()){
+                //validated
+                $user = $this->db->get_where('admin',['username'=>$this->input->post('username')])->row_array();
+                if(!$user){
+                    exit('wrong user');
+                }
+                if($user['password']!=$this->input->post('password')){
+                    exit('wrong password');
+                }
+                //access granted
+                $this->session->set_userdata('user',$user);
+                redirect(site_url(['site/index']));
+            }
         }
         $this->load->view('login', $data);
     }

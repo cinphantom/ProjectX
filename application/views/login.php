@@ -26,7 +26,7 @@
 	<section class="login-contain">
 		<header>
 			<h1>试制信息化管理系统</h1>
-			<p>management system</p>
+			<p>Project-X</p>
 		</header>
 		<div class="form-content">
             <?=form_open('','')?>
@@ -35,7 +35,7 @@
 
                         <div class="form-group">
                             <label class="control-label">账号：</label>
-                            <input type="text" placeholder="您的账号..." class="form-control form-underlined" id="username"/>
+                            <input name="username" type="text" placeholder="您的账号..." class="form-control form-underlined"/>
                         </div>
                         <div class="error-message">
                             <?=form_error('username')?>
@@ -44,7 +44,7 @@
                     <li>
                         <div class="form-group">
                             <label class="control-label">密码：</label>
-                            <input type="password" placeholder="您的密码..." class="form-control form-underlined" id="password"/>
+                            <input name="password" type="password" placeholder="您的密码..." class="form-control form-underlined" />
                         </div>
                         <div class="error-message">
                             <?=form_error('password')?>

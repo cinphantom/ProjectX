@@ -7,5 +7,4 @@ class Site extends CI_Controller
         $this->load->view('index');
         $this->load->view('publicinc/footer');
     }
-
 }

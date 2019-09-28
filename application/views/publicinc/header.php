@@ -30,7 +30,7 @@
                 <i class="i-l-1"></i>
                 <i class="i-l-2"></i>
                 <i class="i-l-3"></i>
-                <strong><a href="" style="font-size:30px">Project-X</a></strong>
+                <strong><a href="<?=site_url('site/index')?>" style="font-size:30px">Project-X</a></strong>
             </div>
         </div>
 
