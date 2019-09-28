@@ -22,7 +22,7 @@
 <script src="<?=base_url().'resource/javascript/plug-ins/customScrollbar.min.js'?>"></script>
 </head>
 <body class="login-page">
-<?php var_dump($html);?>
+<?php $message[0]='1';var_dump($message) ?>
 	<section class="login-contain">
 		<header>
 			<h1>试制信息化管理系统</h1>
