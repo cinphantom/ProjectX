@@ -100,4 +100,10 @@ $(function(){
 		  location.href = 'login.php';
 		});
 	});
+	//test by mason
+	$('#JsSignin').click(function(){
+		var message = 'hello world';
+		alert(message);
+	});
+
 });

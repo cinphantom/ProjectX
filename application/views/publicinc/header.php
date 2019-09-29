@@ -216,3 +216,25 @@
         </nav>
         <footer class="side-footer">©dyk prototype team</footer>
     </div>
+    <div class="content-wrap">
+        <header class="top-hd">
+            <div class="hd-lt">
+                <a class="icon-reorder"></a>
+            </div>
+            <div class="hd-rt">
+                <ul>
+                    <li>
+                        <a><i class="icon-user"></i>welcome:<em>mason</em></a>
+                    </li>
+                    <li>
+                        <a><i class="icon-bell-alt"></i>系统消息</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" id="JsSignOut"><i class="icon-signout"></i>退出登录</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" id="JsSignin"><i class="icon-signin"></i>登录</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
