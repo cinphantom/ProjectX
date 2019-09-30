@@ -1,6 +1,5 @@
 <?php
 ?>
-
 		<main class="main-cont content mCustomScrollbar">
 			<!--开始::内容-->
 			<div class="page-wrap">

@@ -32,7 +32,6 @@
             <?=form_open('','')?>
                 <ul>
                     <li>
-
                         <div class="form-group">
                             <label class="control-label">账号：</label>
                             <input name="username" type="text" placeholder="您的账号..." class="form-control form-underlined"/>
@@ -67,21 +66,5 @@
             </form>
 		</div>
 	</section>
-    <div class="mask"></div>
-    <div class="dialog">
-        <div class="dialog-hd">
-            <strong class="lt-title"><p>标题</p>></strong>
-            <a class="rt-operate icon-remove JclosePanel" title="关闭"></a>
-        </div>
-        <div class="dialog-bd">
-            <!--start::-->
-            <p>这里是基础弹窗,可以定义文本信息，HTML信息这里是基础弹窗,可以定义文本信息，HTML信息。</p>
-            <!--end::-->
-        </div>
-        <div class="dialog-ft">
-            <button class="btn btn-info JyesBtn">确认</button>
-            <button class="btn btn-secondary JnoBtn">关闭</button>
-        </div>
-    </div>
 </body>
 </html>
