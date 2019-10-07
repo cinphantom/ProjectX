@@ -1,12 +1,12 @@
 
 $(function(){
 	'use strict';
-	//左侧导航菜单效果
+	//左侧导航菜单效果（展开子列）
 	$('.side-menu li dt').click(function(){
-		$(this).parents('li').addClass('open');
-		$(this).parents('.side-menu').find('.InitialPage').removeClass('active');
-		$(this).parents('li').siblings().removeClass('open');
-		
+		$(this).parents('li').toggleClass('open');
+		$(this).parents('.side-menu').find('.InitialPage').toggleClass()('active');
+		$(this).parents('li').siblings().toggleClass('open');
+
 	});
 	$('.side-menu dd a').click(function(){
 		$(this).parents('li').addClass('open');
@@ -90,7 +90,6 @@ $(function(){
 	//自动关闭消息窗口
 	$('.Jmsg').click(function(){
 		$('dialog').show().delay(5000).hide(0);
-	});	
-	//安全退出
+	});
 
 });

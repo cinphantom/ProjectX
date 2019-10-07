@@ -59,7 +59,7 @@
                         <button class="btn btn-lg btn-block" id="entry">立即登录</button>
                     </li>
                     <li>
-                        <p class="btm-info">©Copyright 2019  <a class="btm-info" href="#" target="_blank" title="DeathGhost">  dyk Prototype Team</a></p>
+                        <p class="btm-info">©Copyright 2019  <a class="btm-info" href="#" target="_blank" title="cinphantom">  dyk Prototype Team</a></p>
                         <address class="btm-info">JiangSu YanCheng</address>
                     </li>
                 </ul>

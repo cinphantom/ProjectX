@@ -42,13 +42,13 @@
                 <li>
                     <dl>
                         <dt>
-                            <i class="icon-columns"></i>页面基础布局<i class="icon-angle-right"></i>
+                            <i class="icon-columns"></i>计划&任务<i class="icon-angle-right"></i>
                         </dt>
                         <dd>
-                            <a href="flex-layout.html">弹性盒子布局</a>
+                            <i class="icon-check-sign"></i><a href="flex-layout.html">toDoList</a>
                         </dd>
                         <dd>
-                            <a href="flow-layout.html">瀑布流布局</a>
+                            <i class="icon-comments"></i><a href="flow-layout.html">退队协作</a>
                         </dd>
                     </dl>
                 </li>
@@ -251,4 +251,4 @@
                 <button class="btn btn-secondary JnoBtn">关闭</button>
             </div>
         </div>
-        <?php popping() ?>
+        <?php popping_logout() ?>
