@@ -27,16 +27,13 @@
     <div class="side-nav">
         <div class="side-logo">
             <div class="logo">
-                <i class="i-l-1"></i>
-                <i class="i-l-2"></i>
-                <i class="i-l-3"></i>
                 <strong><a href="<?=site_url('site/index')?>" style="font-size:30px">Project-X</a></strong>
             </div>
         </div>
 
         <nav class="side-menu content mCustomScrollbar" data-mcs-theme="minimal-dark">
             <h2>
-                <a href="index.html" class="InitialPage"><i class="icon-dashboard"></i>Dashboard</a>
+                <a href="index.html" class="InitialPage" ><i class="icon-dashboard"></i>Dashboard</a>
             </h2>
             <ul>
                 <li>

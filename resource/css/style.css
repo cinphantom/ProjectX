@@ -1253,7 +1253,7 @@ dialog [class^="icon-"] {
   right: 0;
   height: 50px;
   line-height: 50px;
-  background: #77777d;
+  background: #c0c0cb;
   color: #37383a;
   font-size: 12px!important;
 }
@@ -1780,4 +1780,37 @@ textarea:focus {
 }
 
 /*==================todolist=====================*/
+.html{
+  font-size: 62.5%;
+}
 
+.body {
+  font-size: 15px;
+  color: #333;
+}
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1500px;
+}
+.row{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.panel-heading{
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.panel-primary{
+  color: #fff;
+  background-color: #428bca;
+  border-color: #428bca;
+}
+
+.panel-body{
+  padding: 15px;
+}

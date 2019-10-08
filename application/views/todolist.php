@@ -2,7 +2,6 @@
 ?>
 
 <main class="main-cont content mCustomScrollbar">
-<nav class="navbar navbar-default navbar-static-top" id="id-nav-top" role="navigation" style="background:url(/images/bg-alpha.png) repeat;">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
