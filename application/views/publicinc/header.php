@@ -33,7 +33,7 @@
 
         <nav class="side-menu content mCustomScrollbar" data-mcs-theme="minimal-dark">
             <h2>
-                <a href="index.html" class="InitialPage"><i class="icon-dashboard"></i>Dashboard</a>
+                <a href="index.html" class="InitialPage" ><i class="icon-dashboard"></i>Dashboard</a>
             </h2>
             <ul>
                 <li>

@@ -4,24 +4,29 @@ $(function(){
 	//左侧导航菜单效果（展开子列）
 	$('.side-menu li dt').click(function(){
 		$(this).parents('li').toggleClass('open');
+<<<<<<< HEAD
 		$(this).parents('.side-menu').find('.InitialPage').addClass()('active');
 		$(this).parents('li').siblings().toggleClass('open');
+=======
+		$(this).parents('.side-menu').find('.InitialPage').toggleClass()('active');
+		// $(this).parents('li').siblings().toggleClass('open');
+>>>>>>> 1ffab2d917542e4b809e1b2556a4abb7e5e8dd8c
 
 	});
 	$('.side-menu dd a').click(function(){
-		$(this).parents('li').addClass('open');
-		$(this).parents('li').siblings().removeClass('open')
-	});
-	$('.side-menu li').each(function(){
-		//判断链接相当（当前页面导航样式）
-		if($(this).find('a').attr('href') == window.location.pathname){
-			$(this).addClass('open');
-			$(this).siblings().find('.InitialPage').removeClass('active');
-			$('.InitialPage').removeClass('active');
-		}else if($('.side-menu h2 a').attr('href') == window.location.pathname){
-			$('.InitialPage').addClass('active');
-		}   
-	});
+			$(this).parents('li').addClass('open');
+			$(this).parents('li').siblings().removeClass('open')
+		});
+		$('.side-menu li').each(function(){
+			//判断链接相当（当前页面导航样式）
+			if($(this).find('a').attr('href') == window.location.pathname){
+				$(this).addClass('open');
+				$(this).siblings().find('.InitialPage').removeClass('active');
+				$('.InitialPage').removeClass('active');
+			}else if($('.side-menu h2 a').attr('href') == window.location.pathname){
+				$('.InitialPage').addClass('active');
+			}
+		});
     //Tab选项卡.
     $('.tab-nav li').click(function(){
     	var liIndex = $('.tab-nav li').index(this);
