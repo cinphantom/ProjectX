@@ -27,9 +27,6 @@
     <div class="side-nav">
         <div class="side-logo">
             <div class="logo">
-                <i class="i-l-1"></i>
-                <i class="i-l-2"></i>
-                <i class="i-l-3"></i>
                 <strong><a href="<?=site_url('site/index')?>" style="font-size:30px">Project-X</a></strong>
             </div>
         </div>
@@ -62,156 +59,6 @@
                         </dd>
                     </dl>
                 </li>
-                <li>
-                    <dl>
-                        <dt>
-                            <i class="icon-table"></i>表格UI<i class="icon-angle-right"></i>
-                        </dt>
-                        <dd>
-                            <a href="table.html">基础表格</a>
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>
-                            <i class="icon-list-alt"></i>表单UI<i class="icon-angle-right"></i>
-                        </dt>
-                        <dd>
-                            <a href="form.html">表单结构样式</a>
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>
-                            <i class="icon-external-link"></i>弹出窗口<i class="icon-angle-right"></i>
-                        </dt>
-                        <dd>
-                            <a href="popups.html">基础弹出层</a>
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>
-                            <i class="icon-bar-chart"></i>百度统计echarts图表<i class="icon-angle-right"></i>
-                        </dt>
-                        <dd>
-                            <a href="echarts.html">echarts统计图表</a>
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>
-                            <i class="icon-font"></i>文本编辑器<i class="icon-angle-right"></i>
-                        </dt>
-                        <dd>
-                            <a href="ueditor.html">百度UEDITOR编辑器</a>
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>
-                            <i class="icon-road"></i>进度条<i class="icon-angle-right"></i>
-                        </dt>
-                        <dd>
-                            <a href="progress.html">progress进度条兼容</a>
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>
-                            <i class="icon-tags"></i>Tab选项卡<i class="icon-angle-right"></i>
-                        </dt>
-                        <dd>
-                            <a href="tab.html">Tab选项卡</a>
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>
-                            <i class="icon-filter"></i>下拉菜单<i class="icon-angle-right"></i>
-                        </dt>
-                        <dd>
-                            <a href="button-dropdown.html">按钮式下拉菜单</a>
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>
-                            <i class="icon-sitemap"></i>页面分组标题<i class="icon-angle-right"></i>
-                        </dt>
-                        <dd>
-                            <a href="title.html">页面标题</a>
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>
-                            <i class="icon-columns"></i>分页<i class="icon-angle-right"></i>
-                        </dt>
-                        <dd>
-                            <a href="paging.html">jquery分页效果</a>
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>
-                            <i class="icon-spinner"></i>旋转动画<i class="icon-angle-right"></i>
-                        </dt>
-                        <dd>
-                            <a href="animation.html">刷新加载动画</a>
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>
-                            <i class="icon-fighter-jet"></i>面包屑导航<i class="icon-angle-right"></i>
-                        </dt>
-                        <dd>
-                            <a href="breadcrumb.html">面包屑</a>
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>
-                            <i class="icon-laptop"></i>文本面板<i class="icon-angle-right"></i>
-                        </dt>
-                        <dd>
-                            <a href="text-panel.html">文本面板</a>
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>
-                            <i class="icon-leaf"></i>块引用<i class="icon-angle-right"></i>
-                        </dt>
-                        <dd>
-                            <a href="blockquote.html">块引用</a>
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>
-                            <i class="icon-star"></i>第三方弹窗组件<i class="icon-angle-right"></i>
-                        </dt>
-                        <dd>
-                            <a href="layer.html">web弹层组件</a>
-                        </dd>
-                    </dl>
-                </li>
             </ul>
         </nav>
         <footer class="side-footer">©dyk prototype team</footer>
@@ -236,19 +83,4 @@
             </div>
         </header>
 
-        <--已下为弹窗-->
-        <div class="mask"></div>
-        <div class="dialog">
-            <div class="dialog-hd">
-                <strong class="lt-title">标题</strong>
-                <a class="rt-operate icon-remove JclosePanel" title="关闭"></a>
-            </div>
-            <div class="dialog-bd">
-                <p>这里是基础弹窗,可以定义文本信息，js脚本在helper函数：viewanimated里</p>
-            </div>
-            <div class="dialog-ft">
-                <a href="<?=(site_url(['login/logout']))?>"><button class="btn btn-info JyesBtn">确认</button></a>
-                <button class="btn btn-secondary JnoBtn">关闭</button>
-            </div>
-        </div>
-        <?php popping_logout() ?>
+

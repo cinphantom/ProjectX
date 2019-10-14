@@ -692,7 +692,7 @@ a:active {
 .side-nav {
   background-color: #3a4651;
   width: 180px;
-  padding: 60px 0;
+  padding: 50px 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -710,12 +710,12 @@ a:active {
   z-index: 1;
 }
 .main-cont {
-  padding: 0 5px 0 235px;
+  padding: 0 5px 0 185px;
   height: 100%;
 }
 .page-wrap {
   background: white;
-  padding: 20px;
+  padding: 10px;
 }
 .flex {
   display: flex;
@@ -1091,7 +1091,6 @@ dialog [class^="icon-"] {
   color: #9ca2a8;
 }
 .side-menu h2 .InitialPage:hover {
-  transform: skew(1.5);
   transition: .8s ease 0s;
   background-color: #2d363f;
   color: #f8f8f8;
@@ -1109,7 +1108,6 @@ dialog [class^="icon-"] {
   color: #9ca2a8;
 }
 .side-menu li dt:hover {
-  transform: skew(1.5);
   transition: .8s ease 0s;
   background-color: #2d363f;
   color: #f8f8f8;
@@ -1127,7 +1125,7 @@ dialog [class^="icon-"] {
 }
 .side-menu li.open dt .icon-angle-right {
   transform: rotate(90deg);
-  transition: .5s ease 0;
+  transition: .5s ease 0s;
 }
 .side-menu li.open.active dt {
   background: #4bcf99;
@@ -1158,10 +1156,10 @@ dialog [class^="icon-"] {
   left: 0;
   top: 0;
   right: 0;
-  background: #d7dde4;
+  background: #42b2d4;
   height: 50px;
   line-height: 50px;
-  color: #4f5f6f;
+  color: #000000;
   z-index: 20;
 }
 .top-hd .hd-lt {
@@ -1781,3 +1779,21 @@ textarea:focus {
 
 /*==================todolist=====================*/
 
+.container{
+  border: solid 1px;
+}
+.container{
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+  width: 200px;
+  border-radius: 20px;
+  height: 200px;
+}
+.containerA{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 440px;
+  width: 660px;
+}

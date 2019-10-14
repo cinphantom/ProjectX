@@ -4,7 +4,7 @@ $(function(){
 	//左侧导航菜单效果（展开子列）
 	$('.side-menu li dt').click(function(){
 		$(this).parents('li').toggleClass('open');
-		$(this).parents('.side-menu').find('.InitialPage').toggleClass()('active');
+		$(this).parents('.side-menu').find('.InitialPage').addClass()('active');
 		$(this).parents('li').siblings().toggleClass('open');
 
 	});
